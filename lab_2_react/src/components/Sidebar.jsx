@@ -2,9 +2,7 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="star-container">
-        <div className="star-icon">
-          <img src="/star.svg" alt="Star" />
-        </div>
+        <img src="/star.svg" alt="Star" />
       </div>
 
       <section className="section contacts">

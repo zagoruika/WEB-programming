@@ -1,0 +1,160 @@
+body {
+    background: #FFFFFF;
+    padding: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #D03B00;
+}
+
+.wrapper {
+    background: #FDF7E9;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 370px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.star-container {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.star-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.sidebar .section {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.contact-list li {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.main-content {
+    padding: 80px 80px 80px 40px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.header {
+    margin-bottom: 80px;
+}
+
+.header h1 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 0.85;
+    margin: 0;
+    letter-spacing: -2px;
+}
+
+.grid-layout {
+    display: flex;
+    gap: 60px;
+}
+
+.left-column {
+    flex: 1.5;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(180, 81, 39, 0.25);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+.number {
+    opacity: 0.6;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 40px;
+}
+
+.date {
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.skills-grid span {
+    font-size: 15px;
+}
+
+.lang-list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 2.2;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+    font-weight: 300;
+}
+
+a {
+    color: #D03B00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D03B00;
+    text-decoration: underline;
+}
