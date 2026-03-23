@@ -7,22 +7,34 @@ import Languages from './components/Languages';
 
 function App() {
   return (
-    <div className="wrapper">
-      <Sidebar />
-      <main className="main-content">
-        <Header />
-        <div className="grid-layout">
-          <div className="left-column">
-            <Experience />
+
+      
+      <div className="bg-[#FDF7E9] flex w-[1200px] mx-auto shadow-[0_10px_30px_rgba(0,0,0,0.05)] box-border">
+        
+        <Sidebar />
+
+        <main className="pt-[80px] pr-[80px] pb-[80px] pl-[40px] box-border flex-grow">
+          
+          <Header />
+
+          <div className="flex gap-[60px]">
+            
+            <div className="flex-[1.5]">
+              <Experience />
+            </div>
+
+            <div className="flex-1">
+              <Education />
+              <Skills />
+              <Languages />
+            </div>
+
           </div>
-          <div className="right-column">
-            <Education />
-            <Skills />
-            <Languages />
-          </div>
-        </div>
-      </main>
-    </div>
+
+        </main>
+      </div>
+
+
   );
 }
 
